@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: global styles */
+body {
+  @apply bg-white text-gray-800;
+}
+
+.btn-primary {
+  @apply bg-orange-500 text-white px-5 py-3 rounded-2xl font-medium hover:bg-orange-600 transition;
+}
+.btn-outline {
+  @apply border border-gray-300 text-gray-700 px-5 py-3 rounded-2xl hover:bg-gray-100 transition;
+}
+.glass {
+  @apply bg-white/40 backdrop-blur-md rounded-2xl border border-white/30;
+}
